@@ -44,3 +44,8 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
         return render(request, 'blog/post_edit.html', {'form': form})
+
+def test_form(request):
+    print(request.GET)
+    print(request.POST)
+    return render(request, 'blog/test_form.html')
