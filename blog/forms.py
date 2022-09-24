@@ -2,8 +2,11 @@ from django import forms
 from .models import Post
 
 
-class PostForm(forms.ModelForm):
+class PostForm(forms.Form):
+    title = forms.CharField()
+    #text=forms.CharField()
+    text = forms.CharField(widget=forms.Textarea)
 
-    class Meta:
-        model = Post
-        fields = ('title', 'text',)
+    # class Meta:
+    #     model = Post
+    #     fields = ('title', 'text',)

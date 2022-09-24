@@ -125,6 +125,7 @@ class PostForm(forms.Form):
 ```
 ![form2](/images/form/form2.png "form2")
 
+**More widget: https://docs.djangoproject.com/en/4.1/ref/forms/widgets/**
 ## ModelForm
 **model**
 ```
