@@ -1,4 +1,14 @@
 # Course Outline
+## Introduction:
+Introduction to Website,
+HTTP request-response cycle,
+introduction to Django,
+Django architecture,  
+Django Model, Urls and views
+
+## Setup Django Project:
+install python, creating virtual environment , install django, create project, startapp , create urls and models
+
 ## Form Processing:
 Describing the process of form creation and it’s processing Explaining the techniques to apply validation
 rules to form Illustrating the steps to customize layout and formatting of forms Detailing forms creation
