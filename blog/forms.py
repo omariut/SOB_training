@@ -5,7 +5,7 @@ from .models import Post
 class PostForm(forms.Form):
     title = forms.CharField()
     #text=forms.CharField()
-    text = forms.CharField(widget=forms.Textarea)
+    text = forms.CharField()
 
     # class Meta:
     #     model = Post
