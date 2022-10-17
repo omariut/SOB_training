@@ -13,6 +13,12 @@
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         {% endif %}
         <h1><a href="/">Blog</a></h1>
+        {% if user.is_authenticated %}
+        <p><a href="{% url 'logout' %}"> Logout</a></p>
+
+        {%else%}
+ <p><a href="{% url 'login' %}"> Login</a></p>
+{%endif%}
     </div>
 
     <div class="content container">
